@@ -1,0 +1,16 @@
+set_property PACKAGE_PIN B11 [get_ports {LED[0]}]
+set_property PACKAGE_PIN C11 [get_ports {LED[1]}]
+set_property PACKAGE_PIN A10 [get_ports {LED[2]}]
+set_property PACKAGE_PIN B10 [get_ports {LED[3]}]
+set_property PACKAGE_PIN A12 [get_ports {LED_G[0]}]
+set_property PACKAGE_PIN A13 [get_ports {LED_R[0]}]
+set_property PACKAGE_PIN B9 [get_ports LED_HEART]
+
+set_property IOSTANDARD LVCMOS18 [get_ports {LED[3]}]
+set_property IOSTANDARD LVCMOS18 [get_ports {LED[2]}]
+set_property IOSTANDARD LVCMOS18 [get_ports {LED[1]}]
+set_property IOSTANDARD LVCMOS18 [get_ports {LED[0]}]
+set_property IOSTANDARD LVCMOS18 [get_ports {LED_G[0]}]
+set_property IOSTANDARD LVCMOS18 [get_ports LED_HEART]
+set_property IOSTANDARD LVCMOS18 [get_ports {LED_R[0]}]
+
